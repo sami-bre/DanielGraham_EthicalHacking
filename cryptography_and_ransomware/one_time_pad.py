@@ -1,4 +1,5 @@
-"""one-time-pad is one of the pretty encryption algoritms out there with a very large key space."""
+"""one-time-pad is one of the pretty encryption algoritms out there with a very large key space.
+don't use it though. it's not secure"""
 
 def one_time_pad(message, key):
     """encrypts/decripts the message using the key with the one time
